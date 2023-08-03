@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="description" content="Enrich your precious game by complimenting it with the website it truly deserves. Promote your game's iconic visuals, addictive gameplay and engulfing missions, with the most vibrant way possible through Sweet World's unique design. Thriving with small details, this premium template experience will make your visitors download your game in an instant.">
+        <meta name="keywords" content="game, premium template, gaming, online gaming, facebook, fb, pc game, android, ios, google play store, apple appstore, one page template, Sweet World, candy, bubbles, jewels, themeforest">
+        <title>Secure Quest Game:</title>
+        <!-- Bootstrap -->
+        <link href="https://fonts.googleapis.com/css?family=Changa" rel="stylesheet">
+        <link href="fonts/ionicons/2.0.1/css/ionicons.min.css" type="text/css" media="screen" rel="stylesheet">
+        <link href="../css/styles.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+        <![endif]-->
+        <link rel="apple-touch-icon" sizes="57x57" href="../apple-icon-57x57.png.html">
+        <link rel="apple-touch-icon" sizes="60x60" href="../apple-icon-60x60.png.html">
+        <link rel="apple-touch-icon" sizes="72x72" href="../apple-icon-72x72.png.html">
+        <link rel="apple-touch-icon" sizes="76x76" href="../apple-icon-76x76.png.html">
+        <link rel="apple-touch-icon" sizes="114x114" href="../apple-icon-114x114.png.html">
+        <link rel="apple-touch-icon" sizes="120x120" href="../apple-icon-120x120.png.html">
+        <link rel="apple-touch-icon" sizes="144x144" href="../apple-icon-144x144.png.html">
+        <link rel="apple-touch-icon" sizes="152x152" href="../apple-icon-152x152.png.html">
+        <link rel="apple-touch-icon" sizes="180x180" href="../apple-icon-180x180.png.html">
+        <link rel="manifest" href="../manifest.json.html">
+        <meta name="msapplication-TileColor" content="#181818">
+        <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+        <meta name="theme-color" content="#181818">
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+      
+        <style>
+           
+
+           
+            .agent {
+                height: auto;
+                position: absolute;
+                left: 12%;
+                top: 48%;
+                opacity: 0;
+                width: 200px;
+                height:200px;
+                z-index: 0;
+                box-shadow: 1px 2px 5px #ffffff;
+                background-color: white;
+                padding: 3px;
+                opacity: 2;
+                border-radius:10px;
+            }
+
+            .welcome-text{
+                background-color: white;
+                width:70%;
+                margin:auto;
+                padding:10px;
+                border-radius: 10px;
+                position: absolute;
+                left: 20%;
+                top: 60%;
+                box-shadow: 1px 2px 5px #ffffff;
+            }
+
+             .next-button{
+                margin:auto;
+                border-radius: 10px;
+                position: absolute;
+                left: 20.1%;
+                top: 57%;
+                width: 70%;
+                background-color: rgb(7, 161, 58);
+                color: #ffffff;
+                border: 0px solid #ffffff;
+                box-shadow: 1px 2px 5px #000000;
+            }
+
+            .player-name{
+                margin:auto;
+                border-radius: 10px;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                width: 30%;
+            }
+
+            
+
+
+           
+        </style>
+    </head> 
+    <body data-spy="scroll" data-target=".navbar-custom">
+        <div class="container-fluid">
+            <div class="row">
+                <!-- ============== HEADER =============== -->
+                <header style="margin-top: 0px; margin-bottom: 0px;" id="home">
+                    
+                    <h1>
+                        <img onload="this.style.opacity='1';" class="agent" src="../img/bletchley_lady.svg" alt="Sweet World big logo">
+                    </h1>
+                    <p class="welcome-text">
+                     Hello, Welcome to our Knowlegde Room, <br> We shall be discusing about <b>Social Engineering</b> in this Session. <br><br>
+                     Please play the Video Above to Increase Your Knowledge about Social Engineering
+                    <p>
+                    <p class="welcome-video">
+                        <video controls width="100%" height="400px;" controls>
+                            <source src="../LESSON-VIDEOS/data-protection-and-privacy.mp4" type="video/mp4">
+                        </video>
+                    <p>
+                    <button onclick="window.location.href='quiz/home'" class="next-button">Take a Lesson</button>
+                </header>
+            </div>
+            <!-- ============== DIVIDER ============== -->
+            <div class="Divider">
+                <hr class="Divider-rule">
+            </div>
+
+
+
+            <!-- ============== DIVIDER ============== -->
+            <div class="Divider">
+                <hr class="Divider-rule">
+            </div>
+
+        </div>
+        <!-- ============== SCRIPTS =============== -->
+        <!--<script src="js/jquery-1.12.4.min.js"></script>-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://maps-api-ssl.google.com/maps/api/js?key=AIzaSyBqGHoKDotAUnCmJJqIDUzdGO2g3xA0tnY&amp;callback=initMap"></script>
+        <script src="js/bootstrap/bootstrap.min.js"></script>
+        <script src="js/gmaps/gmaps.js"></script>
+        <script src="js/waypoints/jquery.waypoints.min.js"></script>
+        <script src="js/app.min.js"></script>
+        <script src="js/jquery-mobile-custom/jquery.mobile.custom.min.js"></script>
+        <script>
+           // sessionStorage.setItem("playerName", "Smith");
+           // sessionStorage.getItem("playerName");
+          //  let playerName = sessionStorage.getItem("playerName");
+           
+
+            $(document).ready(function () { 
+                 alert(playerName);
+            });
+        </script>
+    </body>
+</html>
